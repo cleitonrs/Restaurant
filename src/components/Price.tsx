@@ -14,7 +14,9 @@ const [quantity, setQuantity] = useState(1)
 const [selected, setSelected] = useState(0)
 
 useEffect(() => {
-  quantity * (options ? price + options[selected].additionalPrice : price)
+  setTotalPrice(
+      quantity * (options ? price + options[selected].additionalPrice : price)
+    )
 }, [quantity, selected, options, price])
 
   return (
