@@ -22,7 +22,7 @@ const Featured = () => {
             <h1 className='text-xl font-bold uppercase xl:text-2xl 2xl:text-3xl'>{item.title}</h1>
             <p className='p-4 2xl:p-8'>{item.desc}</p>
             <span className='text-xl font-bold'>${item.price}</span>
-            <button className='bg-red-500 text-white p-2 rounded-md'>
+            <button className='bg-red-500 text-white font-bold p-2 rounded-md ease-in-out duration-200 hover:bg-gray-900 hover:text-red-500'>
               Adicionar
             </button>
           </div>
