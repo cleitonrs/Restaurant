@@ -12,7 +12,7 @@ const Offer = () => {
           Saboreie o que há de mais gostoso e torne o seu dia melhor!
         </p>
         {/* <CountDown/> */}
-        <button className='bg-red-500 text-white rounded-md px-6 py-3'>Pedir Agora</button>
+        <button className='bg-red-600 text-white font-bold ease-in-out duration-300 rounded-md px-6 py-3 hover:bg-white hover:text-red-500'>Pedir Agora</button>
       </div>
       {/* Image Container */}
       <div className='flex-1 w-full relative md:h-full'>

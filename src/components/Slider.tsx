@@ -38,7 +38,7 @@ const Slider = () => {
         <h1 className='text-5xl text-center uppercase p-4 md:p-10 md:text-6xl xl:text-7xl'>
           {data[currentSlide].title}
         </h1>
-        <button className='bg-red-600 text-white py-4 px-8 rounded-lg ease-in-out duration-200 hover:bg-gray-900 hover:text-red-500'>
+        <button className='bg-gradient-to-tr from-red-600 to-amber-500 text-white py-4 px-8 rounded-lg ease-in-out duration-300 hover:bg-gradient-to-tr hover:from-amber-500 hover:to-red-600'>
           Pedir Agora
         </button>
       </div>

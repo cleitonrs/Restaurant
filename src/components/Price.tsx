@@ -27,9 +27,9 @@ useEffect(() => {
         {options?.map((option, index) => (
           <button 
             key={option.title} 
-            className='min-w-[6rem] p-2 ring-1 ring-red-400 rounded-md'
+            className='min-w-[6rem] p-2 ring-1 ring-red-600 rounded-md'
             style={{
-              background: selected === index ? "rgb(248 113 113)" : "white",
+              background: selected === index ? "rgb(220 38 38)" : "white",
               color: selected === index ? "white" : "red"
             }}
             onClick={() => setSelected(index)}
@@ -41,16 +41,16 @@ useEffect(() => {
       {/* Quantity And Add Button Container */}
       <div className='flex justify-between items-center'>
         {/* Quantity */}
-        <div className='flex justify-between w-full p-3 ring-1 ring-red-500'>
+        <div className='flex justify-between w-full p-3 ring-1 ring-red-600'>
           <span>Quantidade</span>
           <div className='flex gap-4 items-center'>
-            <button onClick={() => setQuantity(prev => (prev > 1 ? prev - 1 : 1))}>{'<'}</button>
-            <span>{quantity}</span>
-            <button onClick={() => setQuantity(prev => (prev < 9 ? prev + 1 : 9))}>{'>'}</button>
+            <button className='font-bold' onClick={() => setQuantity(prev => (prev > 1 ? prev - 1 : 1))}>{'<'}</button>
+            <span className='font-bold'>{quantity}</span>
+            <button className='font-bold' onClick={() => setQuantity(prev => (prev < 9 ? prev + 1 : 9))}>{'>'}</button>
           </div>
         </div>
         {/* Card Button */}
-        <button className='uppercase w-56 bg-red-500 text-white p-3 ring-1 ring-red-500'>Adicionar</button>
+        <button className='uppercase font-bold w-56 bg-red-600 text-white p-3 ring-1 ring-red-500'>Adicionar</button>
       </div>
     </div>
   )
