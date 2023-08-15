@@ -18,15 +18,15 @@ export const featuredProducts: Products = [
     price: 24.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -39,15 +39,15 @@ export const featuredProducts: Products = [
     price: 29.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -60,15 +60,15 @@ export const featuredProducts: Products = [
     price: 24.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -81,15 +81,15 @@ export const featuredProducts: Products = [
     price: 26.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -102,15 +102,15 @@ export const featuredProducts: Products = [
     price: 29.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -123,15 +123,15 @@ export const featuredProducts: Products = [
     price: 24.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -144,15 +144,15 @@ export const featuredProducts: Products = [
     price: 28.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -165,15 +165,15 @@ export const featuredProducts: Products = [
     price: 32.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -186,15 +186,15 @@ export const featuredProducts: Products = [
     price: 29.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -213,15 +213,15 @@ export const pizzas: Products = [
     price: 24.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -234,15 +234,15 @@ export const pizzas: Products = [
     price: 32.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -255,15 +255,15 @@ export const pizzas: Products = [
     price: 26.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -276,15 +276,15 @@ export const pizzas: Products = [
     price: 28.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -297,15 +297,15 @@ export const pizzas: Products = [
     price: 24.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -318,15 +318,15 @@ export const pizzas: Products = [
     price: 22.9,
     options: [
       {
-        title: "Small",
+        title: "Pequena",
         additionalPrice: 0,
       },
       {
-        title: "Medium",
+        title: "Média",
         additionalPrice: 4,
       },
       {
-        title: "Large",
+        title: "Grande",
         additionalPrice: 6,
       },
     ],
@@ -341,15 +341,15 @@ export const singleProduct: Product = {
   price: 24.9,
   options: [
     {
-      title: "Small",
+      title: "Pequena",
       additionalPrice: 0,
     },
     {
-      title: "Medium",
+      title: "Média",
       additionalPrice: 4,
     },
     {
-      title: "Large",
+      title: "Grande",
       additionalPrice: 6,
     },
   ],
