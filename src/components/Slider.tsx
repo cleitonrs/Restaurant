@@ -7,7 +7,7 @@ const data = [
   {
     id: 1,
     title: "Entregamos o seu pedido em qualquer lugar da cidade",
-    image: "/slide1.png",
+    image: "/slide.jpg",
   },
   {
     id: 2,
