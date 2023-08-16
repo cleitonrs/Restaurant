@@ -12,10 +12,10 @@ type Products = Product[];
 export const featuredProducts: Products = [
   {
     id: 1,
-    title: "Sicilian",
-    desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
+    title: "Siciliana",
+    desc: "Acenda seu paladar com uma combinação ardente de calabresa picante, jalapeños, flocos de pimenta vermelha esmagados e queijo mussarela derretido, dando um chute a cada mordida.",
     img: "/temporary/p1.png",
-    price: 24.9,
+    price: 54.9,
     options: [
       {
         title: "Pequena",
@@ -34,9 +34,9 @@ export const featuredProducts: Products = [
   {
     id: 2,
     title: "Bacon Deluxe",
-    desc: "Indulge in smoky goodness with a flame-grilled beef patty, topped with crispy bacon, melted cheddar cheese, caramelized onions, and a smattering of tangy BBQ sauce.",
+    desc: "Delicie-se com um hambúrguer de carne grelhada na chama, coberto com bacon crocante, queijo cheddar derretido, cebola caramelizada e um punhado de molho de churrasco picante.",
     img: "/temporary/p2.png",
-    price: 29.9,
+    price: 59.9,
     options: [
       {
         title: "Pequena",
@@ -54,10 +54,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 3,
-    title: "Bella Napoli",
-    desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
+    title: "Bella Napolitana",
+    desc: "Uma delícia italiana clássica com uma crosta fina e crocante, molho de tomate picante, mussarela fresca e uma mistura de ervas aromáticas cobertas com alface, tomate e um montão de maionese picante.",
     img: "/temporary/p3.png",
-    price: 24.9,
+    price: 54.9,
     options: [
       {
         title: "Pequena",
@@ -75,10 +75,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 4,
-    title: "Spicy Arrabbiata",
-    desc: "Ignite your taste buds with this fiery pasta creation, combining penne in a spicy tomato sauce infused with garlic, red chili flakes, and fresh basil for the ultimate comfort food experience.",
+    title: "Apimentada Nervosa",
+    desc: "Acenda seu paladar com esta criação de massa ardente, combinando penne em um molho de tomate picante infundido com alho, flocos de pimenta vermelha e manjericão fresco para a melhor experiência de comida caseira.",
     img: "/temporary/p4.png",
-    price: 26.9,
+    price: 56.9,
     options: [
       {
         title: "Pequena",
@@ -97,9 +97,9 @@ export const featuredProducts: Products = [
   {
     id: 5,
     title: "Jalapeño Fiesta",
-    desc: "Ignite your taste buds with a fiery kick! This burger features a succulent beef patty, fiery jalapeños, pepper jack cheese, and a zesty chipotle mayo sauce , and all the classic fixings on a toasted bun.",
+    desc: "Um suculento hambúrguer de carne, jalapenos ardentes, queijo pepper jack e um molho picante de maionese chipotle e todos os ingredientes clássicos em um pão torrado.",
     img: "/temporary/p5.png",
-    price: 29.9,
+    price: 59.9,
     options: [
       {
         title: "Pequena",
@@ -117,10 +117,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 6,
-    title: "Margherita Magic",
-    desc: "A timeless favorite with a twist, showcasing a thin crust topped with sweet tomatoes, fresh basil, creamy mozzarella, and a drizzle of extra virgin olive oil, fresh arugula, and a drizzle of balsamic glaze.",
+    title: "Margherita Mágica",
+    desc: "Uma pizza atemporal com um toque especial, apresentando uma crosta fina coberta com tomate doce, manjericão fresco, mussarela cremosa e um fiozinho de azeite de oliva extra virgem, rúcula fresca e um fiozinho de glacê balsâmico.",
     img: "/temporary/p6.png",
-    price: 24.9,
+    price: 54.9,
     options: [
       {
         title: "Pequena",
@@ -139,9 +139,9 @@ export const featuredProducts: Products = [
   {
     id: 7,
     title: "Garlic Parmesan Linguine",
-    desc: "A garlic lover's delight, featuring linguine smothered in a creamy Parmesan sauce, infused with garlic and garnished with chopped parsley, bell peppers, and cherry tomatoes.",
+    desc: "Uma delícia para os amantes de alho, com espaguete envolto em molho cremoso de parmesão, infundido com alho e guarnecido com salsa picada, pimentão e tomate cereja.",
     img: "/temporary/p7.png",
-    price: 28.9,
+    price: 58.9,
     options: [
       {
         title: "Pequena",
@@ -159,10 +159,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 8,
-    title: "Mediterranean Delight",
-    desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
+    title: "Prazer do Mediterrâneo",
+    desc: "Embarque em uma jornada culinária com esta criação de inspiração mediterrânea, com queijo feta picante, azeitonas Kalamata, tomate seco e uma pitada de orégano.",
     img: "/temporary/p8.png",
-    price: 32.9,
+    price: 62.9,
     options: [
       {
         title: "Pequena",
@@ -180,10 +180,10 @@ export const featuredProducts: Products = [
   },
   {
     id: 9,
-    title: "Hawaiian Teriyaki",
-    desc: "Experience a taste of the tropics with a juicy beef patty glazed in tangy teriyaki sauce, topped with grilled pineapple, crispy bacon, and fresh lettuce, and all the classic fixings on a toasted bun.",
+    title: "Teriyaki havaiano",
+    desc: "Experimente o sabor dos trópicos com um suculento hambúrguer de carne coberto com molho teriyaki picante, abacaxi grelhado, bacon crocante e alface fresca e todos os acompanhamentos clássicos em um pão torrado.",
     img: "/temporary/p9.png",
-    price: 29.9,
+    price: 59.9,
     options: [
       {
         title: "Pequena",
@@ -207,10 +207,10 @@ export const featuredProducts: Products = [
 export const pizzas: Products = [
   {
     id: 1,
-    title: "Sicilian",
-    desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
+    title: "Siciliana",
+    desc: "Acenda seu paladar com uma combinação ardente de pepperoni picante, jalapeños, flocos de pimenta vermelha esmagados e queijo mussarela derretido, dando um chute a cada mordida.",
     img: "/temporary/p1.png",
-    price: 24.9,
+    price: 54.9,
     options: [
       {
         title: "Pequena",
@@ -228,10 +228,10 @@ export const pizzas: Products = [
   },
   {
     id: 2,
-    title: "Mediterranean Delight",
-    desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
+    title: "Prazer do Mediterrâneo",
+    desc: "Embarque em uma jornada culinária com esta criação de inspiração mediterrânea, com queijo feta picante, azeitonas Kalamata, tomate seco e uma pitada de orégano.",
     img: "/temporary/p8.png",
-    price: 32.9,
+    price: 62.9,
     options: [
       {
         title: "Pequena",
@@ -249,10 +249,10 @@ export const pizzas: Products = [
   },
   {
     id: 3,
-    title: "Bella Napoli",
-    desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
+    title: "Bella Napolitana",
+    desc: "Uma delícia italiana clássica com uma crosta fina e crocante, molho de tomate picante, mussarela fresca e uma mistura de ervas aromáticas cobertas com alface, tomate e um montão de maionese picante.",
     img: "/temporary/p3.png",
-    price: 26.9,
+    price: 56.9,
     options: [
       {
         title: "Pequena",
@@ -271,9 +271,9 @@ export const pizzas: Products = [
   {
     id: 4,
     title: "Pesto Primavera",
-    desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
+    desc: "Uma delícia italiana clássica com uma crosta fina e crocante, molho de tomate picante, mussarela fresca e uma mistura de ervas aromáticas cobertas com alface, tomate e um montão de maionese picante.",
     img: "/temporary/p10.png",
-    price: 28.9,
+    price: 58.9,
     options: [
       {
         title: "Pequena",
@@ -291,10 +291,10 @@ export const pizzas: Products = [
   },
   {
     id: 5,
-    title: "Veggie Supreme",
-    desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
+    title: "Supremo Vegetariano",
+    desc: "Uma delícia italiana clássica com uma crosta fina e crocante, molho de tomate picante, mussarela fresca e uma mistura de ervas aromáticas cobertas com alface, tomate e um montão de maionese picante.",
     img: "/temporary/p11.png",
-    price: 24.9,
+    price: 54.9,
     options: [
       {
         title: "Pequena",
@@ -312,10 +312,10 @@ export const pizzas: Products = [
   },
   {
     id: 6,
-    title: "Four Cheese Fantasy",
-    desc: "Experience pure cheesy bliss with a melty blend of mozzarella, cheddar, provolone, and Parmesan cheeses, creating a rich and indulgent pizza experience.",
+    title: "Fantasia Quatro Queijos",
+    desc: "Experimente a pura felicidade do queijo com uma mistura derretida de queijos mussarela, cheddar, provolone e parmesão, criando uma experiência de pizza rica e saborosa.",
     img: "/temporary/p12.png",
-    price: 22.9,
+    price: 52.9,
     options: [
       {
         title: "Pequena",
@@ -335,10 +335,10 @@ export const pizzas: Products = [
 
 export const singleProduct: Product = {
   id: 1,
-  title: "Sicilian",
-  desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
+  title: "Siciliana",
+  desc: "Acenda seu paladar com uma combinação ardente de pepperoni picante, jalapeños, flocos de pimenta vermelha esmagados e queijo mussarela derretido, dando um chute a cada mordida.",
   img: "/temporary/p1.png",
-  price: 24.9,
+  price: 54.9,
   options: [
     {
       title: "Pequena",
@@ -368,25 +368,25 @@ type Menu = {
 export const menu: Menu = [
   {
     id: 1,
-    slug: "pastas",
-    title: "Italian Pastas",
-    desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
+    slug: "massas",
+    title: "Massas Italianas",
+    desc: "Saboreie o sabor da perfeição com nosso requintado cardápio de massas artesanais italianas.",
     img: "/temporary/m1.png",
     color: "white",
   },
   {
     id: 2,
-    slug: "burgers",
-    title: "Juicy Burgers",
-    desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
+    slug: "hambúrgueres",
+    title: "Hambúrgueres Suculentos",
+    desc: "Hambúrguer Abençoado: carne suculenta, sabor intenso, e coberturas gourmet em abundância.",
     img: "/temporary/m2.png",
     color: "black",
   },
   {
     id: 3,
     slug: "pizzas",
-    title: "Cheesy Pizzas",
-    desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
+    title: "Pizza de Queijo",
+    desc: "Pizza Paraíso: Fatias irresistíveis, coberturas de dar água na boca e perfeição no queijo.",
     img: "/temporary/m3.png",
     color: "white",
   },

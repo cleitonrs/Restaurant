@@ -21,7 +21,7 @@ useEffect(() => {
 
   return (
     <div className='flex flex-col gap-4'>
-      <h2 className='text-2xl font-bold'>{totalPrice.toFixed(2)}</h2>
+      <h2 className='text-2xl font-bold'>R$ {totalPrice.toFixed(2)}</h2>
       {/* Options container */}
       <div className='flex gap-4'>
         {options?.map((option, index) => (
