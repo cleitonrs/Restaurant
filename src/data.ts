@@ -97,7 +97,7 @@ export const featuredProducts: Products = [
   {
     id: 5,
     title: "Jalapeño Fiesta",
-    desc: "Um suculento hambúrguer de carne, jalapenos ardentes, queijo pepper jack e um molho picante de maionese chipotle e todos os ingredientes clássicos em um pão torrado.",
+    desc: "Um suculento hambúrguer de carne, jalapenos ardentes, queijo pepper jack e um molho picante de maionese chipotle e todos os ingredientes clássicos em um pão crocante.",
     img: "/temporary/p5.png",
     price: 59.9,
     options: [
@@ -181,7 +181,7 @@ export const featuredProducts: Products = [
   {
     id: 9,
     title: "Teriyaki havaiano",
-    desc: "Experimente o sabor dos trópicos com um suculento hambúrguer de carne coberto com molho teriyaki picante, abacaxi grelhado, bacon crocante e alface fresca e todos os acompanhamentos clássicos em um pão torrado.",
+    desc: "Experimente o sabor dos trópicos com um suculento hambúrguer de carne coberto com molho teriyaki picante, abacaxi grelhado, bacon crocante e alface fresca e todos os acompanhamentos clássicos em um pão crocante.",
     img: "/temporary/p9.png",
     price: 59.9,
     options: [

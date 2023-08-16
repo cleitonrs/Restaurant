@@ -16,7 +16,7 @@ const CategoryPage = () => {
           {/* Text Container */}
           <div className='flex items-center justify-between font-bold'>
             <h1 className='text-2xl p-2 uppercase'>{item.title}</h1>
-            <h2 className='group-hover:hidden text-xl'>${item.price}</h2>
+            <h2 className='group-hover:hidden text-xl'>R$ {item.price.toFixed(2)}</h2>
             <button className='hidden group-hover:block uppercase bg-red-600 text-white p-2 rounded-md'>Adicionar</button>
           </div>
         </Link>
