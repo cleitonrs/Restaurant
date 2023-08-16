@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react'
 const data = [
   {
     id: 1,
-    title: "Sempre quentinha e com muito recheio para você",
+    title: "Entregamos o seu pedido em qualquer lugar da cidade",
     image: "/slide1.png",
   },
   {
@@ -16,8 +16,8 @@ const data = [
   },
   {
     id: 3,
-    title: "Entregamos o seu pedido em qualquer lugar da cidade",
-    image: "/slide3.jpg",
+    title: "Sempre quentinha e com muito recheio para você",
+    image: "/slide4.jpg",
   },
 ]
 

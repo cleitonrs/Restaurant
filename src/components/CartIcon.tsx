@@ -8,7 +8,7 @@ const CartIcon = () => {
       <div className='relative w-8 h-8 md:w-5 md:h-5'>
         <Image src="/cart.png" alt="" fill/>
       </div>
-      <span>Carrinho (3)</span>
+      <span className='hover:text-white'>Carrinho (3)</span>
     </Link>
   )
 }
